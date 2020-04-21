@@ -1,0 +1,20 @@
+.reason{
+    margin: $gutter-xs auto;
+    // background: $gray-lighter;
+    padding: $gutter-xs;
+    border-radius: $border-radius-md;
+    &__heading{
+        margin: 0 0  $gutter-xs;
+        font-size: $font-size-md;
+        color: $orange;
+    }
+    p {
+        font-size: $font-size-sm;
+        margin: 0;
+    }
+
+    @media(min-width: $break-sm){
+        width: 80%;
+    }
+
+}

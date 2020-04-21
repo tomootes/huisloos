@@ -1,0 +1,33 @@
+.container{
+
+    width: calc( 100% - 2rem );
+    margin: 0 auto 10rem;
+    position: relative;
+
+    @media(min-width: $break-sm){
+      width: calc( 100% - ( 2* #{$gutter-lg}) );
+    }
+
+    @media(min-width: $break-md){
+      width: 50rem;
+    }
+
+    @media(min-width: $break-lg){
+      width: 70rem;
+    }
+
+    &.container--small{
+      width: calc( 100% - 2rem );
+      @media(min-width: $break-sm){
+        width: calc( 100% - 2rem );
+      }
+
+      @media(min-width: $break-md){
+        width: 30rem;
+      }
+
+      @media(min-width: $break-lg){
+        width: 50rem;
+      }
+    }
+  }

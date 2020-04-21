@@ -1,0 +1,10 @@
+.chapter{
+    margin: $gutter-sm auto;
+    color: $gray-dark;
+
+    @media(min-width: $break-sm){
+        width: 80%;
+        padding: $gutter-sm;
+    }
+
+}

@@ -1,0 +1,11 @@
+.odd-grid{
+
+
+    @media(min-width: $break-sm){
+        display: grid;
+        grid-gap: $gutter-md;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+
+}

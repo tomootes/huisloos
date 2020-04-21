@@ -1,0 +1,33 @@
+.table{
+
+    border-collapse: collapse;
+    margin: $gutter-sm 0;
+
+    tr th {
+        text-align: left;
+        background: $gray-lighter;
+        color: $gray;
+    }
+
+    tr th, tr td{
+        padding: 10px;
+        font-size: $font-size-sm;
+        border-bottom: 3px solid $gray-lighter;
+        &:first-child{
+            border-right: 3px solid $gray-lighter;
+        }
+    }
+
+    @media(min-width: $break-sm){
+        width: 60%;
+        margin: 0 auto;
+        margin: $gutter-md auto;
+    }
+
+    tr {
+
+    }
+
+
+
+}

@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Work+Sans:wght@400;500;600&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+h3 {
+  margin-top: 3rem;
+  font-size: 1.75rem;
+}
+
+p, li, table {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+li, table {
+  font-size: 1.125rem;
+}
+
+.hero {
+  width: 100%;
+  color: #FF9C1C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3rem;
+  font-size: 1.25rem;
+}
+@media (min-width: 600px) {
+  .hero {
+    font-size: 2.5rem;
+    flex-direction: row;
+  }
+}
+.hero__icon {
+  height: 200px;
+}
+@media (min-width: 600px) {
+  .hero__heading {
+    margin: 0 0 0 2rem;
+  }
+}
+
+.reason {
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.reason__heading {
+  margin: 0 0 1rem;
+  font-size: 1.25rem;
+  color: #FF9C1C;
+}
+.reason p {
+  font-size: 1rem;
+  margin: 0;
+}
+@media (min-width: 600px) {
+  .reason {
+    width: 80%;
+  }
+}
+
+.container {
+  width: calc( 100% - 2rem );
+  margin: 0 auto 10rem;
+  position: relative;
+}
+@media (min-width: 600px) {
+  .container {
+    width: calc( 100% - ( 2* 5rem) );
+  }
+}
+@media (min-width: 900px) {
+  .container {
+    width: 50rem;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 70rem;
+  }
+}
+.container.container--small {
+  width: calc( 100% - 2rem );
+}
+@media (min-width: 600px) {
+  .container.container--small {
+    width: calc( 100% - 2rem );
+  }
+}
+@media (min-width: 900px) {
+  .container.container--small {
+    width: 30rem;
+  }
+}
+@media (min-width: 1200px) {
+  .container.container--small {
+    width: 50rem;
+  }
+}
+
+.list {
+  margin: 1rem 0;
+}
+@media (min-width: 600px) {
+  .list {
+    display: grid;
+    grid-gap: 10px 0;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.road {
+  padding: 2rem;
+  background: #eceeef;
+  color: #636c72;
+  font-size: 1rem;
+}
+@media (min-width: 600px) {
+  .road {
+    margin: 2rem 0;
+  }
+}
+
+.table {
+  border-collapse: collapse;
+  margin: 2rem 0;
+}
+.table tr th {
+  text-align: left;
+  background: #eceeef;
+  color: #464a4c;
+}
+.table tr th, .table tr td {
+  padding: 10px;
+  font-size: 1rem;
+  border-bottom: 3px solid #eceeef;
+}
+.table tr th:first-child, .table tr td:first-child {
+  border-right: 3px solid #eceeef;
+}
+@media (min-width: 600px) {
+  .table {
+    width: 60%;
+    margin: 0 auto;
+    margin: 3rem auto;
+  }
+}
+.barchart {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+.barchart__title {
+  width: 23%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 1rem;
+}
+.barchart__bar {
+  width: 70%;
+  margin: 5px 0;
+  background: #eceeef;
+}
+.barchart__bar__part {
+  background: #292b2c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FF9C1C;
+}
+
+.chapter {
+  margin: 2rem auto;
+  color: #292b2c;
+}
+@media (min-width: 600px) {
+  .chapter {
+    width: 80%;
+    padding: 2rem;
+  }
+}
+
+.person {
+  justify-self: start;
+}
+.person__image img {
+  width: 100%;
+}
+.person__name {
+  margin: 1rem 0;
+}
+.person__text {
+  font-size: 1rem;
+}
+
+@media (min-width: 600px) {
+  .odd-grid {
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.two-columns {
+  margin: 3rem 0;
+}
+@media (min-width: 900px) {
+  .two-columns {
+    display: grid;
+    grid-gap: 10px 0;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.two-columns__column__title {
+  text-align: center;
+  margin: 0 0 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */

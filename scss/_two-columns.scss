@@ -1,0 +1,18 @@
+.two-columns {
+
+    margin: $gutter-md 0;
+
+    @media(min-width: $break-md){
+        display: grid;
+        grid-gap: 10px 0;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__column{
+        &__title{
+            text-align: center;
+            margin: 0 0 $gutter-xs;
+        }
+    }
+
+}

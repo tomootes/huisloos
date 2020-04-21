@@ -1,0 +1,28 @@
+.hero{
+
+    width: 100%;
+    color: $orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: $gutter-md;
+    font-size: $font-size-md;
+
+    @media(min-width: $break-sm){
+        font-size: $font-size-xl;
+        flex-direction: row;
+    }
+
+    &__icon{
+        height: 200px;
+    }
+
+    &__heading{
+
+        @media(min-width: $break-sm){
+            margin: 0 0 0 $gutter-sm;
+        }
+    }
+
+}

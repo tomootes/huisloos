@@ -1,0 +1,10 @@
+.road{
+    padding: $gutter-sm;
+    background: $gray-lighter;
+    color: $gray-light;
+    font-size: $font-size-sm;
+
+    @media(min-width: $break-sm){
+        margin: $gutter-sm 0;
+    }
+}
