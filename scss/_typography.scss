@@ -6,6 +6,7 @@ $font-size-xl: 2.5rem;
 $font-size-lg: 2rem;
 $font-size-md: 1.25rem;
 $font-size-sm: 1rem;
+$font-size-xs: .75rem;
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -23,8 +24,11 @@ h2{
 }
 
 h3 {
-    margin-top: $gutter-md;
+    margin-top: $gutter-xs;
     font-size: 1.75rem;
+    @media(min-width: $break-sm){
+        margin-top: $gutter-md;
+    }
 }
 
 p, li, table {

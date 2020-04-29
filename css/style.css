@@ -15,8 +15,13 @@ h2 {
 }
 
 h3 {
-  margin-top: 3rem;
+  margin-top: 1rem;
   font-size: 1.75rem;
+}
+@media (min-width: 600px) {
+  h3 {
+    margin-top: 3rem;
+  }
 }
 
 p, li, table {
@@ -142,6 +147,7 @@ li, table {
 .table {
   border-collapse: collapse;
   margin: 2rem 0;
+  width: 100%;
 }
 .table tr th {
   text-align: left;
@@ -166,17 +172,22 @@ li, table {
 .barchart {
   display: flex;
   flex-direction: row;
-  width: 90%;
+  justify-content: space-between;
   margin: 0 auto;
   font-size: 1rem;
-  padding: 0 1rem;
 }
 .barchart__title {
-  width: 23%;
+  width: 25%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   margin-right: 1rem;
+  font-size: 0.75rem;
+}
+@media (min-width: 600px) {
+  .barchart__title {
+    font-size: 1rem;
+  }
 }
 .barchart__bar {
   width: 70%;
@@ -242,7 +253,7 @@ li, table {
 }
 .two-columns__column__title {
   text-align: center;
-  margin: 0 0 1rem;
+  margin: 1rem 0;
   font-size: 1.25rem;
 }
 
@@ -261,7 +272,7 @@ li, table {
   flex-wrap: wrap;
 }
 .nav a {
-  color: #464a4c;
+  color: #636c72;
   margin: 0 1rem 0 0;
   font-size: 1rem;
 }

@@ -3,19 +3,23 @@
 
     display: flex;
     flex-direction: row;
-    width: 90%;
+    justify-content: space-between;
     margin: 0 auto;
     font-size: $font-size-sm;
-    padding: 0 $gutter-xs;
-
 
 
     &__title{
-        width: 23%;
+        width: 25%;
         display: flex;
         justify-content: flex-end;
         align-items: center;
         margin-right: $gutter-xs;
+        font-size: $font-size-xs;
+
+        @media(min-width: $break-sm){
+            font-size: $font-size-sm;
+        }
+
     }
 
     &__bar{
@@ -30,5 +34,7 @@
             color: $orange;
         }
     }
+
+
 
 }
