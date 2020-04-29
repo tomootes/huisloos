@@ -1,0 +1,27 @@
+.nav{
+    width: calc(100% - 2 * #{$gutter-xs});
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: $gutter-xs;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: aliceblue;
+    z-index: 99;
+    color: $gray;
+    flex-wrap: wrap;
+
+    a {
+        color: $gray;
+        margin: 0 $gutter-xs 0 0;
+        font-size: $font-size-sm;
+    }
+
+    @media(min-width: $break-sm){
+        a {
+
+        }
+    }
+
+}

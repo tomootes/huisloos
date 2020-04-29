@@ -1,10 +1,19 @@
 .chapter{
-    margin: $gutter-sm auto;
+    margin: 0 auto;
     color: $gray-dark;
+
+    &__anchor{
+        display: flex;
+        padding-top: $gutter-lg;
+    }
 
     @media(min-width: $break-sm){
         width: 80%;
         padding: $gutter-sm;
+
+        &__anchor{
+            padding-top: $gutter-md;
+        }
     }
 
 }

@@ -6,10 +6,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: $gutter-md;
+    margin-top: 9rem;
     font-size: $font-size-md;
+    // background: red;
 
     @media(min-width: $break-sm){
+        margin-top: $gutter-xl;
         font-size: $font-size-xl;
         flex-direction: row;
     }
