@@ -4,8 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "scss": "sass ./scss/main.scss ./css/style.css --watch"
+    "scss": "sass ./scss/main.scss ./css/style.css --watch",
+    "dev": "webpack-dev-server --hot",
+    "build": "webpack -p"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "vue-loader": "^15.9.2",
+    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0"
+  }
 }
