@@ -13,8 +13,19 @@
         margin: 0;
     }
 
+    &--featured{
+        background: $gray-lighter;
+        padding: $gutter-xs;
+        margin-bottom: $gutter-md;
+        @media(min-width: $break-sm){
+
+            padding: $gutter-md;
+        }
+    }
+
     @media(min-width: $break-sm){
         width: 80%;
     }
+
 
 }

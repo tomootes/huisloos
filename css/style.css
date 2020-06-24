@@ -74,6 +74,16 @@ li, table {
   font-size: 1rem;
   margin: 0;
 }
+.reason--featured {
+  background: #eceeef;
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+@media (min-width: 600px) {
+  .reason--featured {
+    padding: 3rem;
+  }
+}
 @media (min-width: 600px) {
   .reason {
     width: 80%;
@@ -275,6 +285,9 @@ li, table {
   color: #636c72;
   margin: 0 1rem 0 0;
   font-size: 1rem;
+}
+a {
+  color: #FF9C1C;
 }
 
 /*# sourceMappingURL=style.css.map */
