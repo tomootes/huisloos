@@ -142,6 +142,26 @@ li, table {
   }
 }
 
+.img {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.img img {
+  width: 100%;
+  margin-bottom: -32px;
+}
+@media (min-width: 600px) {
+  .img {
+    overflow: hidden;
+  }
+  .img img {
+    max-width: 100%;
+    margin-bottom: -91px;
+  }
+}
+
 .road {
   padding: 2rem;
   background: #eceeef;
@@ -215,10 +235,15 @@ li, table {
 .chapter {
   margin: 0 auto;
   color: #292b2c;
+  display: flex;
+  flex-direction: column;
 }
 .chapter__anchor {
   display: flex;
   padding-top: 5rem;
+}
+.chapter a {
+  display: inline;
 }
 @media (min-width: 600px) {
   .chapter {
@@ -241,6 +266,10 @@ li, table {
 }
 .person__text {
   font-size: 1rem;
+}
+
+.inline-heading {
+  margin: 2rem 0 0;
 }
 
 @media (min-width: 600px) {
