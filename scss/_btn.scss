@@ -1,0 +1,25 @@
+.btn{
+    padding: $gutter-xs 2rem;
+    margin: $gutter-xs auto;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    background: #87CF3E;
+    color: white;
+    text-decoration: none;
+    transition: all .1s;
+
+    &:hover{
+        border: 0;
+        color: lighten(#87CF3E, 40%);
+    }
+
+
+}
+
+.btn-wrapper{
+    width: 100%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
